@@ -28,7 +28,7 @@ L’environnement repose actuellement sur :
 
 Plusieurs mécanismes sont mis en œuvre afin d'appliquer une logique de défense en profondeur :
 
-* segmentation réseau par VLAN / interfaces
+* segmentation réseau par zones et interfaces
 * filtrage inter-réseaux avec OPNsense
 * DNSSEC
 * DNS over TLS
@@ -36,7 +36,7 @@ Plusieurs mécanismes sont mis en œuvre afin d'appliquer une logique de défens
 * Cloudflare Tunnel
 * aucun port entrant directement exposé
 * règles WAF et rate limiting
-* durcissement des conteneurs Docker
+* durcissement du serveur et des conteneurs Docker
 * en-têtes de sécurité HTTP
 * mises à jour automatiques des systèmes
 
