@@ -21,6 +21,7 @@ Réseau	Sous-réseau	Usage
 LAN	10.0.10.0/24	Postes clients et administration
 DMZ	10.0.20.0/24	Services exposés
 SRV	10.0.30.0/24	Serveurs internes
+
 🔐 Sécurité
 
 Plusieurs mécanismes sont mis en œuvre afin d'appliquer une logique de défense en profondeur :
