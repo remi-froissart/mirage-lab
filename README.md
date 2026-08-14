@@ -43,15 +43,20 @@ Plusieurs mécanismes sont mis en œuvre afin d'appliquer une logique de défens
 
 ## 🐳 Services
 
-L'infrastructure contient notamment :
+L'infrastructure contient actuellement notamment :
 
 * Traefik
 * Docker
 * Cloudflared
 * serveur web de documentation
-* services DNS
-* application web
-* PostgreSQL
+* DNS Unbound avec DNSSEC et DNS over TLS
+* pare-feu et routage OPNsense
+* DHCP Kea
+
+### En cours d'intégration
+
+* développement d'une application avec **Python**
+* mise en place et administration d'une base de données **PostgreSQL**
 
 D'autres services seront ajoutés au fur et à mesure de l'évolution du lab.
 
@@ -60,18 +65,28 @@ D'autres services seront ajoutés au fur et à mesure de l'évolution du lab.
 Ce projet me permet notamment de travailler :
 
 * l'administration Linux
-* la virtualisation
+* la virtualisation avec Proxmox VE
+* le stockage ZFS
 * les réseaux TCP/IP
 * le routage et les pare-feu
 * la segmentation réseau
+* OPNsense
+* DHCP et DNS
+* DNSSEC et DNS over TLS
 * Docker et les conteneurs
-* les reverse proxies
-* DNS et DNSSEC
-* la sécurisation d'infrastructures
+* les reverse proxies avec Traefik
+* la sécurisation des accès SSH
+* le durcissement des serveurs et conteneurs
+* la publication sécurisée de services
+* Cloudflare Tunnel
+* WAF et sécurité HTTP
+* l'automatisation des mises à jour système
+
+### En cours d'apprentissage et d'intégration
+
+* Python
 * PostgreSQL
-* la supervision
-* la sauvegarde et la restauration
-* l'automatisation avec Python et PowerShell
+* interaction entre une application et une base de données
 
 ## 📚 Documentation
 
