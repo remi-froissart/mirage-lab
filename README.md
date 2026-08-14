@@ -15,7 +15,6 @@ L’environnement repose actuellement sur :
 * **Docker** pour l’hébergement de services
 * **Traefik** comme reverse proxy
 * **Cloudflare Tunnel** pour la publication sécurisée de services
-* **PostgreSQL** pour l’apprentissage et l’administration de bases de données
 
 ### Segmentation réseau
 
