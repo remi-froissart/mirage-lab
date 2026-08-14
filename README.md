@@ -42,7 +42,7 @@ Plusieurs mécanismes sont mis en œuvre afin d'appliquer une logique de défens
 
 ## 🐳 Services
 
-L'infrastructure contient actuellement notamment :
+L'infrastructure contient notamment :
 
 * Traefik
 * Docker
