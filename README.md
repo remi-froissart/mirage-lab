@@ -36,6 +36,7 @@ règles WAF et rate limiting
 durcissement des conteneurs Docker
 en-têtes de sécurité HTTP
 mises à jour automatiques des systèmes
+
 🐳 Services
 
 L'infrastructure contient notamment :
