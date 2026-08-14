@@ -99,5 +99,5 @@ Mirage Lab est un environnement en évolution continue. De nouvelles briques son
 
 ---
 
-**Rémi Froissart**
+**Rémi Froissart**  
 Administrateur systèmes & réseaux
